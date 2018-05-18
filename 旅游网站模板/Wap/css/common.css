@@ -1,0 +1,290 @@
+@charset "utf-8";
+
+@font-face {
+	font-family: zkfront;
+	src: url('zkfront/zk.ttf');
+}
+html{
+	font-size: 625%;
+}
+body,h1,h2,h3,h4,h5,p,ul,ol,form,fieldset,figure {
+	margin: 0;
+	padding: 0;
+	font-family: zkfront;
+ 	font-size: .16rem;	
+}
+body{
+	background: #FFFFFF;
+}
+div,form,fieldset,figure{
+	box-sizing: border-box;
+}
+
+ul,ol{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	width: 100%;
+	display: block;
+}
+.clear:after {
+	content: '.';
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}
+.adver{
+	max-width: 6.4rem;
+	margin:0 auto;
+}
+header {
+	width: 100%;
+	background: #333;
+	height: .45rem;
+	line-height: .45rem;
+	position: fixed;
+	z-index: 9999;
+}
+header li{
+	width: 25%;
+	text-align: center;
+	float: left;
+}
+header a{
+	display: block;
+	color: #fff;
+}
+header a.selected{
+	background: #000;
+}
+.content{
+	max-width: 6.4rem;
+	padding-top: .45rem;
+	margin:0 auto;
+}
+.adver{
+	position: relative;
+}
+.text hgroup{
+	position: absolute;
+	top:40%;
+	left: 25%;
+
+	color: #fff;
+}
+.text h2{
+	font-size: .16rem;
+}
+.text h2{
+	font-size:.14rem;
+}
+.search{
+	height: .35rem;
+	background: #ddd;
+	text-align: center;
+	position: relative;
+}
+.search input{
+	width: 98%;
+	height: .25rem;
+	vertical-align: middle;
+	line-height: .25rem;
+	border-radius: .04rem;
+	color: #777;
+	font-size: .12rem;
+	border: none;
+	margin-top:.05rem;
+	outline: none;
+	
+}
+.search button{
+	position: absolute;
+	top:.05rem;
+	right: 1%;
+	height: .27rem;
+	line-height: .27rem;
+	text-align: center;
+	color: #666;
+	background: #eee;
+	font-size: .12rem;
+	border: none;
+	border-radius: .04rem;
+	outline: none;
+}
+.section{
+	padding: 0 .1rem;
+	margin-bottom: .1rem;
+}
+.section h2{
+	font-weight: bolder;
+	font-size: .2rem;
+	border-bottom: 1px dashed #999;
+	padding-bottom: .1rem;
+	margin:.1rem 0;
+}
+
+.section p{
+	line-height: 2;
+	font-size: .14rem;
+	color: #666;
+	margin:.1rem 0;
+}
+.section li{
+	font-size: .14rem;
+	color: #666;
+}
+.info_content figure{
+	margin-top: .1rem;
+	padding:0 .1rem;
+	position: relative;
+}
+.info_content figure:after{
+	content: '.';
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}
+.info_content figure img{
+	width: 50%;
+	float: left;
+}
+.info_content figure figcaption{
+	width: 48%;
+	text-align: left;
+	float: right;
+	padding-left: 2%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	
+}
+.info_content .title{
+	font-size: .14rem;
+	font-weight: bold;
+	color: #666;
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+}
+.info_content .des{
+	margin-top:.05rem;
+	font-size: .12rem;
+	color:#999;
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+}
+.info_content .price{
+	position: absolute;
+	color: #f60;
+	bottom: 0;
+}
+.book ul li{
+	display: inline-block;
+	color: #666;
+	margin-right:.05rem;
+}
+.book  a{
+	color: #666;
+}
+.book .selected{
+	background: #458B00;
+	color: #fff;
+	padding:.03rem .04rem;
+	border-radius: .04rem;
+}
+p button{
+	width: 100%;
+	background: #FF6600;
+	font-size: .14rem;
+	color: #fff;
+	border-radius: .04rem;
+	border: none;
+	padding:.1rem 0;
+	text-align: center;
+	margin:0 auto;
+}
+form label{
+	width: 15%;
+	height: .2rem;
+	line-height: .2rem;
+}
+form input{
+	width: 80%;
+	height: .2rem;
+	border-radius: .04rem;
+	background: #fff;
+	padding-left:1%;
+	border: 1px solid #ccc;
+}
+table{
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: .2rem;
+	border: 1px solid #eee;
+	color: #666;
+	font-size: .12rem;
+}
+table th{
+	font-weight: normal;
+	padding:.15rem 0;
+	border-bottom: 1px solid #ddd;
+}
+table tr:hover{
+	background: #eee;
+}
+table tr:nth-child(2n+1){
+	background: #fafafa;
+}
+table td{
+	padding:.15rem 0;
+	text-align: center;
+	border-bottom: 1px solid #ddd;
+}
+tfoot tr{
+	background: #fff !important;
+}
+.reserve{
+	color: #Fff;
+	background: #FF6600;
+	padding:.04rem .03rem;
+	border-radius: .04rem;
+}
+.more_ticket{
+	color: #666;
+
+}
+footer{
+	width: 100%;
+	background: #333;
+	color: #777;
+	text-align: center;
+	font-size: .14rem;
+	padding:.1rem 0;
+	margin-top: .1rem;
+}
+
+@media only screen and (min-width: 480px) and (max-width: 640px) {
+	footer{
+		font-size: .14rem;
+	}
+}
+
+@media (max-width: 480px) {
+	footer,.text h2{
+		font-size: .12rem;
+	}
+	.text h1{
+		font-size: .14rem;
+	}
+	.text h1{
+		font-size: .14rem;
+	}
+	
+}

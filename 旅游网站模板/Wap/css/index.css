@@ -1,0 +1,56 @@
+@charset "utf-8";
+
+.tour{
+	text-align: center;
+	letter-spacing: .01rem;
+	margin:.1rem 0;
+}
+.tour h2{
+	font-size:.26rem;
+	color: #666666;
+}
+.tour h3{
+	font-size: .16rem;
+	color: #666;
+	font-weight: normal;
+	margin-bottom: .1rem;
+}
+
+.tour figure{
+	width: 50%;
+	float: left;
+	padding:0 .05rem;
+	font-size: .14rem;
+}
+
+.tour figcaption{
+	text-align: left;
+}
+.tour figcaption h4,.tour figcaption h5{
+	color: #666;
+	font-weight: normal;
+	letter-spacing: 1;	
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	margin:.02rem 0;
+}
+.info {
+	margin:.05rem 0;
+}
+.info em{
+	font-style: normal;
+	float: right;
+}
+.info .price{
+	color: #f60;
+}
+
+@media (max-width: 480px) {
+	
+	figcaption h4,figcaption h5{
+		font-size: .12rem;
+	}
+	figcaption {
+		font-size: .12rem;
+	}
+}

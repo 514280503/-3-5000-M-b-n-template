@@ -1,0 +1,76 @@
+@charset "utf-8";
+
+.search{
+	width: 100%;;
+}
+.search img{
+	width: 100%;
+	min-width: 1200px;
+	display: block;
+}
+.tour {
+	width: 1200px;
+	margin:30px auto;
+	text-align: center;
+	
+}
+.tour h2{
+	font-weight: normal;
+	margin:10px;
+}
+.tour p{
+	color: #777;
+	margin-bottom: 10px;
+}
+.tour figure{
+	width: 380px;
+	border: 1px solid #ccc;
+	padding: 4px;
+	display: inline-block;
+	text-align: left;
+	position: relative;
+	border-radius: 4px;
+	margin: 5px 1px 1px 0;
+}
+.tour img{
+	vertical-align: middle;
+	width: 100%;
+}
+.tour figcaption{
+	color: #777;
+	line-height: 1.5;
+	letter-spacing: 1;
+	font-size: 14px;
+	padding:7px 0 5px 0;
+}
+.tour strong{
+	color: #333;
+	font-weight: normal;
+}
+.tour .sat{
+	float: right;
+	font-style: normal;
+	color: #999;
+	font-size: 13px;
+}
+.tour .price{
+	color: #f60;
+}
+.tour .price strong{
+	font-size: 20px;
+	color: #FF6600;
+	font-weight: bolder;
+}
+.tour .type{
+	width: 90px;
+	height: 25px;
+	line-height: 25px;
+	font-size: 14px;
+	text-align: center;
+	color: #fff;
+	background: #59b200;
+	position: absolute;
+	top: 4px;
+	left: 4px;
+	
+}
